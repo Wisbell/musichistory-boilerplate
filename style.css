@@ -5,6 +5,28 @@ Is this app going to take up the entire view width?
 */
 
 
-.view_music {
+.music-nav {
+	height: 10vh;
+	margin-top: 2em;
+
+	border: 1px black solid;
 	background-color: #FFB4B0;
+}
+
+
+.music-left-col {
+	height: 80vh;
+	margin-top: 1em;
+
+	border: 1px black solid;
+	background-color: #4DD7FA;
+}
+
+
+.music-right-col {
+	height: 80vh;
+	margin-top: 1em;
+
+	border: 1px black solid;
+	background-color: #FEFAC0;
 }
