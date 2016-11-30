@@ -17,12 +17,14 @@
 			
 			<div class="col-md-12">
 
-				<div class="music-nav">
+				<div class="music-nav-div">
 					
 					<ul>
-						<li>View Music</li>
-						<li>Add Music</li>
-						<li>Profile</li>
+						<li><a href="#">View Music</a></li>
+						<li>|</li>
+						<li><a href="#">Add Music</a></li>
+						<li>|</li>
+						<li><a href="#">Profile</a></li>
 
 					</ul>
 
@@ -30,28 +32,74 @@
 
 			</div>
 
-		</div>
+		</div> <!-- Closes first row div -->
 
 
 		<div class="row">		
 
-			<div class="col-md-4">
+			<div class="col-md-3">
 				
-				<div class="music-left-col"></div>
+				<div class="music-left-col">
+
+					<div class="left-col-song-length">
+						<p>Song Length:</p>
+						<input type="range" name="">
+					</div>
+
+					<div class="left-col-artist">
+						<p>Artist:</p>
+						<select>
+							<option>Options</option>
+						</select>
+					</div>
+
+					<div class="left-col-album">
+						<p>Album:</p>
+						<select>
+							<option>Options</option>
+						</select>
+					</div>
+
+					<div class="left-col-genre">
+						<p>Genre:</p>
+						
+						<div class="genre-info-left">
+							<ul>
+								<li><label><input type="checkbox" name="rock">Rock</label></li>
+								<li><label><input type="checkbox" name="rock">Pop</label></li>
+								<li><label><input type="checkbox" name="rock">Blues</label></li>
+							</ul>
+						</div>
+
+						<div class="genre-info-right">
+							<ul>
+								<li><label><input type="checkbox" name="rock">Classical</label></li>
+								<li><label><input type="checkbox" name="rock">Jazz</label></li>
+								<li><label><input type="checkbox" name="rock">Hip hop</label></li>
+							</ul>
+						</div>
+
+					</div> <!-- Left Column Genre End -->
+
+					<div class="left-col-filter-button">
+						<button class="filter-button">Filter</button>						
+					</div>
+
+				</div>
 
 			</div>
 
-			<div class="col col-md-8">
+			<div class="col-md-9">
 				
 				<div class="music-right-col"></div>
 
+				</div>
+
 			</div>
 
-		</div>
+		</div> <!-- Closes second row div -->
 
-
-
-	</div>
+	</div> <!-- Closes container div -->
 
 
 

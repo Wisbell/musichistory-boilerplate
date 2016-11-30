@@ -1,11 +1,22 @@
-/* 
+/* Notes:
 
 Is this app going to take up the entire view width?
 
 */
 
 
-.music-nav {
+/*----------------------*/ 
+/* Main Element Targets */
+/*----------------------*/ 
+li {
+	list-style-type: none;
+}
+
+/*--------------------------*/ 
+/* Top Music Navigation Bar */
+/*--------------------------*/ 
+
+.music-nav-div {
 	height: 10vh;
 	margin-top: 2em;
 
@@ -13,15 +24,72 @@ Is this app going to take up the entire view width?
 	background-color: #FFB4B0;
 }
 
+.music-nav-div ul {
+	padding-top: 2.15em;
+}
+
+.music-nav-div li {
+	display: inline-block;
+}
+
+/*----------------*/
+/* Left Music Col */
+/*----------------*/
 
 .music-left-col {
 	height: 80vh;
 	margin-top: 1em;
+	padding-top: 1em;
+	padding-right: 1em;
+
+	padding-left: 1em;
 
 	border: 1px black solid;
 	background-color: #4DD7FA;
 }
 
+.left-col-song-length {
+	
+}
+
+.left-col-artist select {
+	width: 80%;
+}
+
+.left-col-album select{
+	width: 80%;
+}
+
+.left-col-genre {
+
+}
+
+.genre-info-left {
+	float: left;
+
+
+}
+
+.genre-info-right {
+	float: right;
+	padding-right: 1.5em;
+
+}
+
+.left-col-filter-button {
+	padding-left: 20%;
+
+}
+
+.filter-button {
+	width: 80%;
+}
+
+
+
+/*-----------------*/
+/* Right Music Col */
+/*-----------------*/
 
 .music-right-col {
 	height: 80vh;
