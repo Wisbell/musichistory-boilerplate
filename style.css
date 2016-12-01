@@ -96,6 +96,7 @@ li {
 	margin-top: 1em;
 	padding-left: 2em;
 	padding-top: 1em;
+	overflow: auto;
 
 	border: 1px black solid;
 	background-color: #FEFAC0;
